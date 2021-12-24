@@ -39,7 +39,7 @@ body {
 }
 
 #about-pic{
-    max-width:45%;
+    max-width:40%;
     height:auto;
     object-fit: contain;
     border-radius: 5px;
@@ -49,11 +49,13 @@ body {
 .content-section{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding: 3%;
 }
 
 .content-text{
-    padding: 5%;
+    text-align: left;
+    padding: 3%;
 }
 
 a:link {
